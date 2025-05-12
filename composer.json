@@ -1,0 +1,31 @@
+{
+    "name": "puma/libreria",
+    "description": "Librería reconoce palabras que comienzan con mayusculas y te devuelve como palabras correctas y tambien extrae numeros del un texto.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "puma\\libreria\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },
+    "authors": [
+        {
+            "name": "limbert",
+            "email": "limbepuma01@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "puma\\libreria\\ServiceProvider"
+            ]
+        }
+    }
+   
+
+}
