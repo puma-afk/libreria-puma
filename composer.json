@@ -2,6 +2,7 @@
     "name": "puma/libreria",
     "description": "Librería reconoce palabras que comienzan con mayusculas y te devuelve como palabras correctas y tambien extrae numeros del un texto.",
     "type": "library",
+    "keywords": ["string manipulation", "text processing", "capitalization", "number extraction", "laravel"],
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -9,8 +10,8 @@
         }
     },
     "require": {
-        "php": ">=8.1",
-        "illuminate/support": "^9.0|^10.0|^11.0"
+        "php": ">=8.2",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
     },
     "authors": [
         {
@@ -19,6 +20,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable":true,
     "extra": {
         "laravel": {
             "providers": [
@@ -26,6 +28,7 @@
             ]
         }
     }
+    
    
 
 }
