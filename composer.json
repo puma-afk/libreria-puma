@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "puma\\libreria\\ServiceProvider"
+                "puma\\libreria\\ValidacionLibreriaServiceProvider"
             ]
         }
     }
